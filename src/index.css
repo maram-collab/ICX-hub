@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { @apply font-body bg-[#F7FAFF] text-ink antialiased; }
+h1, h2, h3 { @apply font-display; }
+:focus-visible { outline: 3px solid #037EF3; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
